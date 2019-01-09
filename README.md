@@ -11,5 +11,5 @@
 
 
 - 1.[PyTorch60分钟入门（中文翻译）（目录名：PyTorch_beginner）](PyTorch_beginner/)
-- 2.Python深度学习原书代码中文翻译（稍后公布）
+- 2.[Python深度学习原书代码中文翻译](deep-learning-with-python-notebooks/)
 

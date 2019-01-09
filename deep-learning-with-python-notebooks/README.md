@@ -49,20 +49,10 @@
 8.5: Introduction to GANs（生成式对抗网络简介）
 
 
-
-      **中文注释与解释如图：**
-    
-      ![img](https://mmbiz.qpic.cn/mmbiz_png/w8WIOkDOxtNnKDO9ZPwHibltKmj6icRvRInWZrnnXlJ8ibyMtKfywaxR0EAJZbWjsE4XPODcEQM9C2CNRGPuNKEEQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-
-
-      ![img](https://mmbiz.qpic.cn/mmbiz_png/w8WIOkDOxtNnKDO9ZPwHibltKmj6icRvRImkia0lNMwwFKSstn4oywiczGiaLnLIWf7ia3P1EGXlxOibrHUhOb61eU7KA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-    
-      **作者的github：**https://github.com/fchollet/deep-learning-with-python-notebooks
-    
-      **《python深度学习》的购买地址：**https://item.jd.com/12409581.html
-    
-      **data目录的数据下载：**
-    
-      python深度学习代码和数据集链接：https://pan.baidu.com/s/1Ni8apGSR56Dyf7nOKBVPNQ 提取码：sdgi
+**作者的github：**https://github.com/fchollet/deep-learning-with-python-notebooks
+​    
+**《python深度学习》的购买地址：**https://item.jd.com/12409581.html
+​    
+**data目录的数据下载：**
+ https://pan.baidu.com/s/1Ni8apGSR56Dyf7nOKBVPNQ 提取码：sdgi
 

@@ -1,4 +1,6 @@
-《python深度学习》由Keras之父、现任Google人工智能研究员的弗朗索瓦•肖莱（François Chollet）执笔，详尽介绍了用Python和Keras进行深度学习的探索实践，包括计算机视觉、自然语言处理、产生式模型等应用。书中包含30多个代码示例，步骤讲解详细透彻。
+![](data/book.png)
+
+《**python深度学习**》由Keras之父、现任Google人工智能研究员的弗朗索瓦•肖莱（François Chollet）执笔，详尽介绍了用Python和Keras进行深度学习的探索实践，包括计算机视觉、自然语言处理、产生式模型等应用。书中包含30多个代码示例，步骤讲解详细透彻。
 
 作者在github公布了代码，代码几乎囊括了本书所有知识点。在学习完本书后，读者将具备搭建自己的深度学习环境、建立图像识别模型、生成图像和文字等能力。但是有一个小小的遗憾：代码的解释和注释是全英文的，即使英文水平较好的朋友看起来也很吃力。
 
@@ -49,10 +51,12 @@
 8.5: Introduction to GANs（生成式对抗网络简介）
 
 
-**作者的github：**https://github.com/fchollet/deep-learning-with-python-notebooks
-​    
-**《python深度学习》的购买地址：**https://item.jd.com/12409581.html
-​    
+**作者的github：**
+https://github.com/fchollet/deep-learning-with-python-notebooks
+
+**《python深度学习》的购买地址：**
+https://item.jd.com/12409581.html
+
 **data目录的数据下载：**
  https://pan.baidu.com/s/1Ni8apGSR56Dyf7nOKBVPNQ 提取码：sdgi
-
+本书运行代码要下载大量的数据，如kaggle“猫狗大战”等数据，我们已经下载了所有本书需要的数据放在上面那个下载链接了。

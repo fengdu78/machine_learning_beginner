@@ -17,5 +17,6 @@
 #### Python基础
 
 - 1.[两天入门Python](python-start/)(目录名：python-start)
-- 2.[Sklearn入门经典案例](pyparis-2018-sklearn/)(目录名：pyparis-2018-sklearn)
+- 2.[适合初学者快速入门的Numpy实战全集](numpy/)(目录名：numpy)
+- 3.[Sklearn入门经典案例](pyparis-2018-sklearn/)(目录名：pyparis-2018-sklearn)
 

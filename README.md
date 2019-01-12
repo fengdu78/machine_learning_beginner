@@ -37,7 +37,7 @@
 #### 大神之作
 
 - 1.[徐亦达老师的机器学习资料分享](https://github.com/roboticcam/machine-learning-notes)
-- 2.[华校专老师的笔记分享](http://http://www.huaxiaozhuan.com/)
+- 2.[华校专老师的笔记分享](http://www.huaxiaozhuan.com/)
 - 3.[LFD习题解答（林轩田机器学习课程内容）（作者秦臻）](https://github.com/Doraemonzzz/Learning-from-data)
 
 

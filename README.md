@@ -20,6 +20,7 @@
 - 2.[适合初学者快速入门的Numpy实战全集](numpy/)(目录名：numpy)
 - 3.[matplotlib学习之基本使用](matplotlib/)(目录名：matplotlib)
 - 4.[Sklearn入门经典案例](pyparis-2018-sklearn/)(目录名：pyparis-2018-sklearn)
+- 5.[两天学会pandas](pandas/)(目录名：pandas)
 
 
 

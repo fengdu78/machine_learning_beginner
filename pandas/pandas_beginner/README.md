@@ -1,11 +1,3 @@
-# 《十分钟搞定pandas》
-
-**10-Minutes-to-pandas**，这是十分钟搞定pandas [*10 minutes in pandas*](http://pandas.pydata.org/pandas-docs/stable/10min.html)的中文翻译。
-
-# 《pandas练习题》
-
-**Pandas_Exercises**，这个是pandas的练习题
-
 # 《pandas入门教程-2天学会pandas》
 
 **pandas_beginner**

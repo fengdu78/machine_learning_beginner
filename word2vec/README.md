@@ -7,7 +7,7 @@
 
 我发现嵌入的概念是机器学习中最迷人的想法之一。如果您曾经使用Siri，Google智能助理，Alexa，谷歌翻译，甚至智能手机键盘进行下一词预测，那么您很有可能从这个已经成为自然语言处理模型核心的想法中受益。在过去的几十年中，使用嵌入技术进行神经模型已有相当大的发展（最近的发展包括BERT和GPT2 等尖端模型的语境化嵌入）。
 
-自2013年以来，Word2vec一直是一种有效创建单词嵌入的方法。除了词嵌入字的方法之外，它的一些概念已经被证明可以在非语言任务中有效地创建推荐引擎和理解顺序数据。比如Airbnb，阿里巴巴，Spotify和Anghami这样的公司都从NLP世界中创造出这一优秀的工具并将其用于生产中，从而为新型推荐引擎提供支持。
+自2013年以来，word2vec一直是一种有效创建单词嵌入的方法。除了词嵌入字的方法之外，它的一些概念已经被证明可以在非语言任务中有效地创建推荐引擎和理解顺序数据。比如Airbnb，阿里巴巴，Spotify和Anghami这样的公司都从NLP世界中创造出这一优秀的工具并将其用于生产中，从而为新型推荐引擎提供支持。
 
 我们将讨论嵌入的概念，以及使用word2vec生成嵌入的机制。
 
@@ -134,7 +134,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](images/output_14_0.png)
 
 
 我们将忽略数字并仅查看颜色以指示单元格的值，我们将“King”与其他词语进行对比：
@@ -157,7 +157,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](images/output_16_0.png)
 
 
 看看“man”和“woman”是如何彼此更相似的，他们中的任何一个都是“king”？这告诉你一些事情。这些向量表示捕获了这些单词的信息/含义/关联。
@@ -377,7 +377,7 @@ model.most_similar(positive=["king","woman"],negative=["man"])
 ## 带负采样的skipgram（SGNS）
 我们现在已经介绍了word2vec中的两个核心思想：
 
-另一个被称为带有负采样的skipgram。
+负采样和skipgram。
 ![](images/skipgram-with-negative-sampling.png)
 
 ## Word2vec训练流程
@@ -425,7 +425,7 @@ Gensim默认窗口大小为5（输入字本身加上输入字之前的两个字�
 负样本的数量是训练过程的另一个因素。原始论文里负样本数量为5-20。它还指出，当你拥有足够大的数据集时，2-5似乎已经足够了。Gensim默认为5个负样本。
 ## 结论
 
-我希望你现在对word嵌入和word2vec算法有所了解。我也希望现在当你读到一篇提到“skip gram with negative sampling”（SGNS）的论文时，你会对这些概念有了更好的认识。
+我希望你现在对词嵌入和word2vec算法有所了解。我也希望现在当你读到一篇提到“skip gram with negative sampling”（SGNS）的论文时，你会对这些概念有了更好的认识。
 
 本文作者：[jalammar](https://twitter.com/jalammar)。
 
@@ -441,13 +441,13 @@ Gensim默认窗口大小为5（输入字本身加上输入字之前的两个字�
 -   [Neural Network Methods in Natural Language Processing](https://www.amazon.com/Language-Processing-Synthesis-Lectures-Technologies/dp/1627052984) by [Yoav Goldberg](https://twitter.com/yoavgo) is a great read for neural NLP topics.
 
 -   [Chris McCormick](http://mccormickml.com/) has written some great blog posts about Word2vec. He also just released [The Inner Workings of word2vec](https://www.preview.nearist.ai/paid-ebook-and-tutorial), an E-book focused on the internals of word2vec.
-    
+  
 -   Want to read the code? Here are two options:
 
     -   Gensim’s [python implementation](https://github.com/RaRe-Technologies/gensim/blob/develop/gensim/models/word2vec.py) of word2vec
-        
--   Mikolov’s original [implementation in C](https://github.com/tmikolov/word2vec/blob/master/word2vec.c) – better yet, this [version with detailed comments](https://github.com/chrisjmccormick/word2vec_commented/blob/master/word2vec.c) from Chris McCormick.
     
+-   Mikolov’s original [implementation in C](https://github.com/tmikolov/word2vec/blob/master/word2vec.c) – better yet, this [version with detailed comments](https://github.com/chrisjmccormick/word2vec_commented/blob/master/word2vec.c) from Chris McCormick.
+  
 -   [Evaluating distributional models of compositional semantics](http://sro.sussex.ac.uk/id/eprint/61062/1/Batchkarov,%20Miroslav%20Manov.pdf)
 
 -   [On word embeddings](http://ruder.io/word-embeddings-1/index.html), [part 2](http://ruder.io/word-embeddings-softmax/)

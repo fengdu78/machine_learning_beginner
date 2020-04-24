@@ -11,6 +11,10 @@ https://www.kaggle.com/corochann/covid-19-eda-with-recent-update-on-april/data?s
 
 （下载train.csv、test.csv、usa_states2.csv） 到input的convid19目录即可，数据更新到2020-4-14。
 
+原始数据是这里下载修改的：
+
+https://github.com/CSSEGISandData/COVID-19
+
 这份分析代码主要分为以下几个部分：
 - 全球趋势
 - 国家（地区）增长

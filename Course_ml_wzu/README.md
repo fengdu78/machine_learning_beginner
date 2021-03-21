@@ -6,3 +6,5 @@
 如果有老师需要ppt原版文件，请联系我：haiguang2000@wzu.edu.cn
 
 黄海广
+
+注意：已经建立新的仓库：https://github.com/fengdu78/WZU-machine-learning-course ，请到那个仓库访问。
